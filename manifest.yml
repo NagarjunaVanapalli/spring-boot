@@ -2,4 +2,5 @@
 applications:
 - name: nag-spring-boot-example
   instances: 1
+  memory: 800
   path: target/SpringBootExample-0.0.1-SNAPSHOT.jar
