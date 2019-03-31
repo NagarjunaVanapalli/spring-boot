@@ -49,16 +49,20 @@
 	
 	<repositories>
         <repository>
-            <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/fweif0fs0em8ZK6YVsnf/</url>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoReadUrl}</url>
         </repository>
     </repositories>
 
-    <distributionManagement>
+     <distributionManagement>
         <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/b1fjXcjKaJbt4yJ37KTz/</url>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
         </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
+        </snapshotRepository>
     </distributionManagement>
-
+	
 </project>
