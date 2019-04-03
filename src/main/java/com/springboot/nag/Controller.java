@@ -8,7 +8,7 @@ public class Controller {
 
 	@RequestMapping("/springboot")
 	public String springBoot() {
-		return "Hello, Spring Boot service is running";
+		return "Hello, Spring Boot service is running . . .";
 	}
 
 }
